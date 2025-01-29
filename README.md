@@ -8,23 +8,22 @@ The aim of this project is to identify customers likely to cancel their subscrip
 
 ## 📂 Repository structure
 
-📁 Business_case-churn_telecom
-│── 📄 requirements.txt # Libraries needed to run the project
-│── 📄 dataset.csv # Customer data file
+📁 Business_case-churn_telecom\
+│── 📄 requirements.txt # Libraries needed to run the project\
+│── 📄 dataset.csv # Customer data file\
 │── 📄 churn_analysis.ipynb # Notebook Jupyter with ML analysis and model
 
 ## ⚙️ Installation and Configuration
 
 1. Clone the repository
 
-`git clone https://github.com/Romain-Data/Business_case-churn_telecom.git`
-
+`git clone https://github.com/Romain-Data/Business_case-churn_telecom.git`\
 `cd churn-telecom`
 
 2. Create a virtual environment (optional but recommended)
 
-python -m venv venv`
-`source venv/bin/activate # For Mac/Linux`
+`python -m venv venv`\
+`source venv/bin/activate # For Mac/Linux`\
 `venv\Scripts\activate # For Windows`
 
 3. Install dependencies
@@ -41,12 +40,9 @@ Then open the notebook.ipynb file.
 
 The notebook compares several categorization models:
 
-Logistic Regression 📈
-
-Random Forest 🌲
-
-SVM 🖥️
-
+Logistic Regression 📈\
+Random Forest 🌲\
+SVM 🖥️\
 Neural Networks 🤖
 
 
