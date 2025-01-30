@@ -59,24 +59,23 @@ L'objectif de ce projet est d'identifier les clients susceptibles de résilier l
 
 ## 📂 Structure du Repository
 
-📁 Business_case-churn_telecom
-│── 📄 requirements.txt   # Bibliothèques nécessaires pour exécuter le projet
-│── 📄 dataset.csv        # Fichier de données client
+📁 Business_case-churn_telecom\
+│── 📄 requirements.txt   # Bibliothèques nécessaires pour exécuter le projet\
+│── 📄 dataset.csv        # Fichier de données client\
 │── 📄 churn_analysis.ipynb  # Notebook Jupyter avec l'analyse et le modèle ML
 
 ## ⚙️ Installation et Configuration
 
 1. Cloner le repository
 
-`git clone https://github.com/Romain-Data/Business_case-churn_telecom.git`
-
+`git clone https://github.com/Romain-Data/Business_case-churn_telecom.git`\
 `cd churn-telecom`
 
 2. Créer un environnement virtuel (optionnel mais recommandé)
 
-`python -m venv venv`
-`source venv/bin/activate  # Pour Mac/Linux`
-`venv\Scripts\activate    # Pour Windows`
+`python -m venv venv`\
+`source venv/bin/activate  # Pour Mac/Linux`\
+`venv\Scripts\activate    # Pour Windows`\
 
 3. Installer les dépendances
 
@@ -92,12 +91,9 @@ Puis ouvrir le fichier notebook.ipynb.
 
 Le notebook compare plusieurs modèles de catégorisation :
 
-Régression Logistique 📈
-
-Random Forest 🌲
-
-SVM 🖥️
-
+Régression Logistique 📈\
+Random Forest 🌲\
+SVM 🖥️\
 Réseaux de Neurones 🤖
 
 
